@@ -66,7 +66,7 @@ public class LuceneDemo{
 	/**
 	 * 创建分词索引
 	 * @return void
-	 * @param blog
+	 * @param string
 	 * @throws Exception 
 	 */
 	public void addIndex(String string) throws Exception {
@@ -82,8 +82,8 @@ public class LuceneDemo{
 	}
 	
 	/**
-	 * 删除指定博客的索引
-	 * @param blogId
+	 * 删除指定的索引
+	 * @param string
 	 * @throws Exception
 	 */
 	public void deleteIndex(String string)throws Exception{
